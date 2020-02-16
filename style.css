@@ -124,32 +124,26 @@ body {
 
 .buttons2, .buttons{
 	height: 48px;
-	min-width: 100px;
+	min-width: 150px;
 	float: left;
-	flex-grow: 0.7;
-}
-
-.buttons2 {
+	flex-grow: 0.5;
 	font-size: 32px;
-	padding-right: 16px;
 }
 
 #user, #cart {
 	padding-top: 7px;
-	padding-left: 32px;
+	padding-right: 16px;
+	padding-left: 16px;
 	float: right;
 }
 
 #menu {
 	padding-top: 7px;
+	float: left;
 	padding-left: 16px;
 }
 
 #user:hover, #cart:hover, #menu:hover {
 	color: #ee0076;
 	cursor: pointer;
-}
-
-.buttons {
-	font-size: 32px;
 }
