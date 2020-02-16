@@ -49,6 +49,7 @@ body {
 
 .search {
 	min-width: 320px;
+	max-width: 720px;
 	height: 34px;
 	margin-top: 7px;
 	float: left;
@@ -130,14 +131,18 @@ body {
 
 .buttons2 {
 	font-size: 32px;
-	text-align: right;
-	margin-left: 4px;
+	padding-right: 16px;
 }
 
-#user, #cart, #menu{
+#user, #cart {
+	padding-top: 7px;
+	padding-left: 32px;
+	float: right;
+}
+
+#menu {
 	padding-top: 7px;
 	padding-left: 16px;
-	padding-right: 16px;
 }
 
 #user:hover, #cart:hover, #menu:hover {
@@ -147,5 +152,4 @@ body {
 
 .buttons {
 	font-size: 32px;
-	margin-right: 4px;
 }
